@@ -35,22 +35,7 @@ IRIS (Intelligent Retrieval & Inference System) leverages cutting-edge AI to:
 6. **Response Generation** - Structured output formatting
 7. **Final Processing** - Post-processing and compliance checks
 8. **Response** - Delivered medical codes with explanations
-    User Query 
-        ↓ 
-  Query Analysis
-        ↓ 
-    Retrieval 
-        ↓ 
-  Medical Coding 
-        ↓ 
- Final Processing
-        ↓
-Response Generation -----+
-        ↓                ↓
-        ↓             Response               
-        ↓                |
-  Quality Check----------|
-
+                  
 <img width="1536" height="1024" alt="updated architectural workflow" src="https://github.com/user-attachments/assets/02b0ef6a-80ab-4ed5-9ef3-119c1c89cbc0" />
 
 
