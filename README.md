@@ -111,16 +111,14 @@ Run preprocessing**
 5.      Stop GCP services (to avoid charges)
          - Uncomment last cell and run it
 
-- ## Testing
+## Testing
 - Use the CLI to test chatbot with RAG implementation
 
-- ## Deployment
+## Deployment
 - Deployed in GCP Cloud workspace (.ipynb) with the Vertex AI and bucket storage implementation.
 - Used ngrok for secure (public) tunneling and API gateway over the local host applications.
 
-- ## Production (Cloud Run)
-
-- ## 📊 Monitoring
+## 📊 Monitoring
 
 Access monitoring dashboards:
 - **LangFuse**: Agent performance and tracing
