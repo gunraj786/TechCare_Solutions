@@ -27,13 +27,32 @@ IRIS (Intelligent Retrieval & Inference System) leverages cutting-edge AI to:
 - **🔍 Provide Transparency**: Explain reasoning behind code suggestions
 
 ## 🏗️ Architecture
+1. **User Query** - Initial clinical note input
+2. **Query Analysis** - Text preprocessing and validation
+3. **Retrieval** - Vector search for similar cases using Vertex AI Matching Engine
+4. **Medical Coding** - AI-powered code assignment (ICD-9/CPT)
+5. **Quality Check** - Confidence scoring and validation
+6. **Response Generation** - Structured output formatting
+7. **Final Processing** - Post-processing and compliance checks
+8. **Response** - Delivered medical codes with explanations
+    User Query 
+        ↓ 
+  Query Analysis
+        ↓ 
+    Retrieval 
+        ↓ 
+  Medical Coding 
+        ↓ 
+ Final Processing
+        ↓
+Response Generation -----+
+        ↓                ↓
+        ↓             Response               
+        ↓                |
+  Quality Check----------|
 
-Patient Notes → Preprocessing → Vertex AI Embeddings → Matching Engine
-↓
-Cloud Monitoring ← Code Output ← Decision Router ← Retrieval Agent
-↑ ↓ (Low Confidence)
-LangFuse ← Reasoning Agent ← Gemini 2.5 Flash
-<img width="2400" height="1600" alt="architectural workflow" src="https://github.com/user-attachments/assets/8f44ca80-730b-41a3-96a6-d420b133ecd0" />
+<img width="1536" height="1024" alt="updated architectural workflow" src="https://github.com/user-attachments/assets/02b0ef6a-80ab-4ed5-9ef3-119c1c89cbc0" />
+
 
 ### LangGraph Integration Overview
 
