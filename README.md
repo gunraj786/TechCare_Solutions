@@ -95,17 +95,73 @@ Run preprocessing**
 **Deploy to Cloud Run**
 - gcloud run deploy iris-coding-agent --source .
 
-- ### API Endpoint
-import requests
+- ### Setup & Usage
+1.      Get your GCP Project ID
+        Replace in the notebook:
+        python i-monolith-468706-i9 → your_project_id
 
-response = requests.post('https://your-cloud-run-url/api/v1/encode',
-json={
-      "clinical_text": "Patient presents with chest pain, EKG shows ST elevation...",
-      "patient_context": {"age": 65, "gender": "M"}
-    }
-      )
+2.      Upload ehr_records.csv into the working environment
 
-result = response.json()
-print(f"Suggested ICD-9: {result['icd9_codes']}")
-print(f"Suggested CPT: {result['cpt_codes']}")
-print(f"Confidence: {result['confidence_score']}")
+3.      Update ngrok token in cell 20
+
+4.      Run all cells in TechCare Solutions Chatbot.ipynb
+         - Cell 2: Authenticate GCP login → copy code → paste in CLI field
+         - Cell 13: Use the CLI to test chatbot with RAG implementation
+
+5.      Stop GCP services (to avoid charges)
+         - Uncomment last cell and run it
+
+- ## Testing
+- Use the CLI to test chatbot with RAG implementation
+
+- ## Deployment
+- Deployed in GCP Cloud workspace (.ipynb) with the Vertex AI and bucket storage implementation.
+- Used ngrok for secure (public) tunneling and API gateway over the local host applications.
+
+- ## Production (Cloud Run)
+
+- ## 📊 Monitoring
+
+Access monitoring dashboards:
+- **LangFuse**: Agent performance and tracing
+- **Cloud Monitoring**: Infrastructure metrics  
+- **Custom Dashboard**: Coding accuracy and business metrics
+
+## 🤝 Contributing
+
+We welcome contributions!
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)  
+5. Open a Pull Request
+
+## 📄 License
+
+This project is under the Supervision of GenAI Cognixia (Ascendion).
+
+## 👥 Team
+
+- **[Jonah Prashanth]** - *Backend Lead* - [@teammate1](https://github.com/jonahprashanth)
+- **[Gunraj Singh]** - *Frontend Lead* - [@teammate2](https://github.com/gunraj786)
+- **[Sharaneeshvar]** - *Testing and informative Lead* - [@teammate3](https://github.com/sharaneeshvar)
+
+## 🙏 Acknowledgments
+
+- **TechCare Solutions** for project sponsorship
+- **Google Cloud** for Vertex AI platform
+- **LangChain Team** for LangGraph framework
+- **Medical Coding Community** for domain expertise
+
+## 📞 Support
+
+- 📧 Email: singh.gunraj0812@gmail.com
+- 💬 Issues: [GitHub Issues](https://github.com/gunraj786/TechCare_Solutions/issues)
+- 📖 Documentation: [Project Docs](https://github.com/gunraj786/TechCare_Solutions/blob/main/README.md)
+
+---
+
+⭐ **Star this repository if it helps your healthcare coding automation journey!**
+
+🔗 **Connect with us**: [LinkedIn](your-linkedin) | [Twitter](your-twitter) | [Website](your-website)
