@@ -1,7 +1,7 @@
 # TechCare_Solutions
 🏥 AI-powered medical coding automation system using LangGraph multi-agent RAG architecture on GCP. Converts clinical notes to ICD-9/CPT codes with 90%+ accuracy, reducing coding time from hours to minutes.
 
-# IRIS EHR Medical Coding Agent 🏥🤖
+# IRIS EHR Medical Coding Agent 🏥
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Multi--Agent-green.svg)](https://langchain-ai.github.io/langgraph/)
