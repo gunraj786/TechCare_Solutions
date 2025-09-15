@@ -35,6 +35,30 @@ Cloud Monitoring ← Code Output ← Decision Router ← Retrieval Agent
 LangFuse ← Reasoning Agent ← Gemini 2.5 Flash
 <img width="2400" height="1600" alt="architectural workflow" src="https://github.com/user-attachments/assets/8f44ca80-730b-41a3-96a6-d420b133ecd0" />
 
+### LangGraph Integration Overview
+
+🔹 **Nodes (6 implemented)**
+
+1. **Query Analysis Node** – Analyzes user intent and preprocesses queries
+2. **Retrieval Node** – Searches for similar medical records using embeddings
+3. **Medical Coding Node** – Extracts ICD-9, CPT, and procedure codes
+4. **Quality Check Node** – Validates results with intent-specific scoring
+5. **Response Generation Node** – Decides between RAG or fallback response
+6. **Final Processing Node** – Workflow cleanup and completion
+
+🔹 **Agents (3 specialized)**
+
+- **QueryAnalysisAgent** – Uses Gemini for intent recognition (diagnostic, procedural, symptom, code lookup, general)
+- **RetrievalAgent** – Handles semantic search & similarity scoring
+- **MedicalCodingAgent** – Extracts & processes medical codes from records
+- **ResponseGenerationAgent** – Generates contextual responses with confidence thresholds
+
+### ✅Benefits
+- **Better Query Understanding** – Intent analysis improves relevance
+- **Quality Assurance** – Accuracy boosted with validation checks
+- **Transparency** – Workflow progress clearly visible
+- **Reliability** – Built-in fallback ensures continuity
+- **Extensibility** – Easy to add new nodes/agents for future needs
 
 ### Key Components
 - **🔍 LangGraph Multi-Agent System**: Specialized agents for retrieval and reasoning
@@ -47,10 +71,12 @@ LangFuse ← Reasoning Agent ← Gemini 2.5 Flash
 
 ### Core Capabilities
 - **📋 Multi-Code Support**: ICD-9 diagnoses, procedures, and CPT codes
-- **🎯 Confidence Scoring**: Risk assessment for each coding decision
+- **🎯 Confidence Scoring**: Risk assessment for each coding decision with intent-aware validation
 - **🔄 Hybrid Approach**: RAG retrieval + LLM reasoning fallback
 - **⚡ Real-time Processing**: Sub-5-minute response times
 - **📈 Continuous Learning**: Feedback integration for model improvement
+- **🧠 Intent Recognition**: Auto-detects diagnostic, procedural, or general medical queries
+- **📊 State Management**: Tracks workflow execution with WorkflowState TypedDict for transparency
 
 ### Technical Features
 - **☁️ Cloud-Native**: Deployed on Google Cloud Run/App Engine
@@ -58,6 +84,11 @@ LangFuse ← Reasoning Agent ← Gemini 2.5 Flash
 - **📊 Comprehensive Monitoring**: Performance, accuracy, and usage analytics
 - **🔧 API-First Design**: RESTful endpoints for easy integration
 - **📱 Web Interface**: User-friendly dashboard for medical coders
+- **🎯 Quality Scoring**: Intent-aware validation with boosted thresholds for clinical queries
+- **📈 Workflow Tracking**: Visual status updates show progress at each step
+- **🛡️ Graceful Fallback**: Defaults to standard implementation if LangGraph unavailable
+- **🔍 Enhanced Context**: File context automatically integrated into processing pipeline
+
 
 ## 📊 Performance Metrics
 
