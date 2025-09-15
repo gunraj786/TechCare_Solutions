@@ -50,7 +50,7 @@ IRIS (Intelligent Retrieval & Inference System) leverages cutting-edge AI to:
 5. **Response Generation Node** – Decides between RAG or fallback response
 6. **Final Processing Node** – Workflow cleanup and completion
 
-🔹 **Agents (3 specialized)**
+🔹 **Agents (4 specialized)**
 
 - **QueryAnalysisAgent** – Uses Gemini for intent recognition (diagnostic, procedural, symptom, code lookup, general)
 - **RetrievalAgent** – Handles semantic search & similarity scoring
