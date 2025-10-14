@@ -196,5 +196,3 @@ This project is under the Supervision of GenAI Cognixia (Ascendion).
 ---
 
 ⭐ **Star this repository if it helps your healthcare coding automation journey!**
-
-🔗 **Connect with us**: [LinkedIn](your-linkedin) | [Twitter](your-twitter) | [Website](your-website)
