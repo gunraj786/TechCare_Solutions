@@ -1,6 +1,8 @@
 # TechCare_Solutions
 🏥 AI-powered medical coding automation system using LangGraph multi-agent RAG architecture on GCP. Converts clinical notes to ICD-9/CPT codes with 90%+ accuracy, reducing coding time from hours to minutes.
 
+## 📹 [Demo Video](https://drive.google.com/file/d/1IkJ-_2Nc0JJRPdC28bHURlco2r90nKSx/view?usp=sharing)
+
 # IRIS EHR Medical Coding Agent 🏥
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
@@ -155,6 +157,8 @@ Run preprocessing**
 ## Deployment
 - Deployed in GCP Cloud workspace (.ipynb) with the Vertex AI and bucket storage implementation.
 - Used ngrok for secure (public) tunneling and API gateway over the local host applications.
+  
+![image](https://github.com/gunraj786/TechCare_Solutions/blob/main/Screenshots/3.png)
 
 ## 📊 Monitoring
 
