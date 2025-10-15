@@ -110,9 +110,12 @@ IRIS (Intelligent Retrieval & Inference System) leverages cutting-edge AI to:
 - **4GB RAM minimum**
 
 **Clone repository**
-- git clone https://github.com/gunraj786/TechCare_Solutions.git
-cd TechCare_Solutions
-
+  ```
+    git clone https://github.com/gunraj786/TechCare_Solutions.git
+  ```
+  ```
+    cd TechCare_Solutions
+  ```
 **Install dependencies**
 - pip install -r requirements.txt
 
