@@ -110,8 +110,8 @@ IRIS (Intelligent Retrieval & Inference System) leverages cutting-edge AI to:
 - **4GB RAM minimum**
 
 **Clone repository**
-- git clone https://github.com/yourusername/iris-medical-coding-agent.git
-cd iris-medical-coding-agent
+- git clone https://github.com/gunraj786/TechCare_Solutions.git
+cd TechCare_Solutions
 
 **Install dependencies**
 - pip install -r requirements.txt
@@ -176,9 +176,9 @@ This project is under the Supervision of GenAI Cognixia (Ascendion).
 
 ## 👥 Team
 
-- **[Jonah Prashanth]** - *Backend Lead-1* - [@teammate1](https://github.com/jonahprashanth)
+- **[Jonah Prashanth]** - *Backend Lead 1* - [@teammate1](https://github.com/jonahprashanth)
 - **[Gunraj Singh]** - *Frontend Lead* - [@teammate2](https://github.com/gunraj786)
-- **[Sharaneeshvar]** - *Backend Lead-2* - [@teammate3](https://github.com/sharaneeshvar)
+- **[Sharaneeshvar]** - *Backend Lead 2* - [@teammate3](https://github.com/sharaneeshvar)
 
 ## 🙏 Acknowledgments
 
