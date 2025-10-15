@@ -3,7 +3,7 @@
 
 ### 📹 [Demo Video](https://drive.google.com/file/d/1IkJ-_2Nc0JJRPdC28bHURlco2r90nKSx/view?usp=sharing)
 
-### To Download Dataset ➡️ [click here](https://drive.google.com/file/d/11NwIbnVruhtqIk09yQ4BqjwU5kxW3N5Q/view?usp=sharing)
+### To Download Dataset ➡️ [Click Here](https://drive.google.com/file/d/11NwIbnVruhtqIk09yQ4BqjwU5kxW3N5Q/view?usp=sharing)
 
 # IRIS EHR Medical Coding Agent 🏥
 
