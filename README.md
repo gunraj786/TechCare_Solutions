@@ -176,9 +176,9 @@ This project is under the Supervision of GenAI Cognixia (Ascendion).
 
 ## 👥 Team
 
-- **[Jonah Prashanth]** - *Backend Lead* - [@teammate1](https://github.com/jonahprashanth)
+- **[Jonah Prashanth]** - *Backend Lead-1* - [@teammate1](https://github.com/jonahprashanth)
 - **[Gunraj Singh]** - *Frontend Lead* - [@teammate2](https://github.com/gunraj786)
-- **[Sharaneeshvar]** - *Testing and informative Lead* - [@teammate3](https://github.com/sharaneeshvar)
+- **[Sharaneeshvar]** - *Backend Lead-2* - [@teammate3](https://github.com/sharaneeshvar)
 
 ## 🙏 Acknowledgments
 
